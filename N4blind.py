@@ -13,10 +13,10 @@ import random
 import pyttsx3
 
 def main():
-    blabla = (random.choice(allTitles))
-    print(blabla)
+    random = (random.choice(allTitles))
+    print(random)
     engine = pyttsx3.init()
-    engine.say(blabla)
+    engine.say(random)
     engine.setProperty('rate',80)  #120 words per minute
     engine.setProperty('volume',0.9) 
     engine.runAndWait()
