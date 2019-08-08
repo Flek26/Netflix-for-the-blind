@@ -10,10 +10,16 @@
     Action | Comedy | Documentary | Drama | Horror | Kids & Family | Sci-Fi & Fantasy | Thriller | Other
 '''
 import random
+import pyttsx3
 
 def main():
-        print(random.choice(allTitles))
-
+    blabla = (random.choice(allTitles))
+    print(blabla)
+    engine = pyttsx3.init()
+    engine.say(blabla)
+    engine.setProperty('rate',80)  #120 words per minute
+    engine.setProperty('volume',0.9) 
+    engine.runAndWait()
 
 allTitles = [
 "Clash of the Titans [Movie Action rated PG-13]",
