@@ -13,12 +13,15 @@ import random
 import pyttsx3
 
 def main():
-    random = (random.choice(allTitles))
-    print(random)
+    title = (random.choice(allTitles))
+    print(title)
     engine = pyttsx3.init()
-    engine.say(random)
-    engine.setProperty('rate',80)  #120 words per minute
+    engine.setProperty('rate', 120)  #120 words per minute
     engine.setProperty('volume',0.9) 
+    engine.say(title)
+    engine.runAndWait()
+
+    engine.say("Based off of the category you wish to browse (or all), It will randomly pick a show / movie for you that is available from Netflix with Audio Description tracks.() Available generes are")
     engine.runAndWait()
 
 allTitles = [
