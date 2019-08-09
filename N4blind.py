@@ -24,6 +24,9 @@ def main():
     engine.say("Based off of the category you wish to browse (or all), It will randomly pick a show / movie for you that is available from Netflix with Audio Description tracks.() Available generes are")
     engine.runAndWait()
 
+    
+    #From here We want to get voice navigation features (or very simple imput features)
+    
 allTitles = [
 "Clash of the Titans [Movie Action rated PG-13]",
 "#realityhigh [Netflix Film Comedy rated TV-14]",
