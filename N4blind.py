@@ -27,6 +27,14 @@ def main():
     
     #From here We want to get voice navigation features (or very simple imput features)
     
+    #Allow Reroll
+
+    #Allow Voice control
+    
+    #Allow you to mark as completed so you dont get it again
+    
+    #Allow you to disable titles if you dont want to see them
+    
 allTitles = [
 "Clash of the Titans [Movie Action rated PG-13]",
 "#realityhigh [Netflix Film Comedy rated TV-14]",
